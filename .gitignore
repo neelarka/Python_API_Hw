@@ -104,4 +104,4 @@ venv.bak/
 .mypy_cache/
 
 # ignore a single file
-api_key.py
+api_keys.py
