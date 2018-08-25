@@ -1,7 +1,3 @@
-# Description- three observable trends based on the data are as follows 
-- The temperature was plotted for 500+ cities across the world of varying distance from the equator. We found that the temperature values had a peak for latitude value (+20) from the equator.
-- The wind speeds are greater for cities with higher latitude values from equator.
-- The cloudiness and humidity values are almost symmetric around the equator as the axis for various latitude values of the cities.
 
 
 ```python
@@ -826,7 +822,7 @@ city_data.to_csv("city_data.csv", encoding="utf-8", index=False)
 plt.scatter(lat, temp, marker="o")
 
 # Incorporate the other graph properties
-plt.title("Distribution of Temperature by latitude")
+plt.title("Distribution of Temperature by latitude(8/24/2018)")
 plt.ylabel("Temperature (Farenheit)")
 plt.xlabel("Latitude")
 plt.grid(True)
@@ -848,7 +844,7 @@ plt.show()
 plt.scatter(lat, humidity, marker="o")
 
 # Incorporate the other graph properties
-plt.title("Distribution of Humidity by latitude")
+plt.title("Distribution of Humidity by latitude(8/24/2018)")
 plt.ylabel("Humidity (%)")
 plt.xlabel("Latitude")
 plt.grid(True)
@@ -870,7 +866,7 @@ plt.show()
 plt.scatter(lat, wind_speed, marker="o")
 
 # Incorporate the other graph properties
-plt.title("Distribution of Wind Speed by latitude")
+plt.title("Distribution of Wind Speed by latitude(8/24/2018)")
 plt.ylabel("Wind Speed (mph)")
 plt.xlabel("Latitude")
 plt.grid(True)
@@ -892,7 +888,7 @@ plt.show()
 plt.scatter(lat, cloudiness, marker="o")
 
 # Incorporate the other graph properties
-plt.title("Distribution of Cloudiness by latitude")
+plt.title("Distribution of Cloudiness by latitude(8/24/2018)")
 plt.ylabel("Cloudiness (%)")
 plt.xlabel("Latitude")
 plt.grid(True)
