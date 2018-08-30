@@ -1,4 +1,7 @@
-
+# Description- three observable trends based on the data are as follows 
+- The temperature was plotted for 500+ cities across the world of varying distance from the equator. We found that the temperature values had a peak for latitude value (+20) from the equator.
+- The wind speeds are greater for cities with higher latitude values from equator.
+- The cloudiness and humidity values are almost symmetric around the equator as the axis for various latitude values of the cities.
 
 ```python
 # Dependencies and Setup
